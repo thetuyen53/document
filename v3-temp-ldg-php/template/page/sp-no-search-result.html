@@ -1,0 +1,40 @@
+<div class="container-fulid">
+    <div class="row">
+        <div class="col-lg-10">
+            <div class="no-search-result-section">
+                <div class="search-content">
+                    <h2>No Seach Results Showing......</h2>
+                    <p>Sorry, but nothing matched your search terms. Please try again with some different keywords.</p>
+                    <div class="suggestions">
+                        <h3>Suggestions:</h3>
+                        <ul>
+                            <li><i class="fa fa-angle-double-right"></i> Make sure all words are spelled correctly</li>
+                            <li><i class="fa fa-angle-double-right"></i> Try more general keywords, especially if you are attempting a name</li>
+                        </ul>
+                    </div>
+                    <div class="search-form">
+                        <form class="form">
+                            <div>
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+.no-search-result-section .search-content > h2{font-size:30px;font-size:1.875rem;color:#73b21a;margin:0 0 1em;}
+.no-search-result-section .search-content > p{font-size:20px;font-size:1.25rem;font-style:italic;}
+.no-search-result-section .suggestions{margin-top:45px;}
+.no-search-result-section .search-form .form div{position:relative;}
+.no-search-result-section .search-form .form input{height:40px;border-color:#d8d8d8;}
+.no-search-result-section .search-form button{background-color:#73b21a;width:40px;height:40px;border:0;outline:0;color:#fff;position:absolute;right:0;top:0;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;}
+@media screen and (min-width:992px){
+    .no-search-result-section .search-form{max-width:500px;margin-top: 20px;}
+}
+</style>

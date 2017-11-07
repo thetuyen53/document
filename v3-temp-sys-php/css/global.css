@@ -1,0 +1,28 @@
+/*----------------------------------------------------------------------------------------
+DEFAULT*/
+@import url('default/tabs.css');
+@import url('default/forms.css');
+@import url('default/trees.css');
+
+/*----------------------------------------------------------------------------------------
+DEFAULT*/
+a,button,img, span{-webkit-transition:all .3s;-o-transition:all .3s;transition:all .3s;cursor:pointer!important;}
+a:hover{text-decoration: none;} 
+
+button.btn-custom{
+    border: 0;
+    height: 34px;
+    min-width: 100px;
+    border-radius: 4px;
+
+}
+/*----------------------------------------------------------------------------------------
+HEADER*/
+
+
+/*----------------------------------------------------------------------------------------
+WARPPER*/
+
+
+/*----------------------------------------------------------------------------------------
+FOOTOER*/

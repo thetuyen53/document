@@ -1,0 +1,18 @@
+l - login : 	sign in
+		sign up
+		forgotyourpassword
+		page 404
+
+
+p - profile:	profile
+		change password
+		change avatar
+		
+t - tree: 	binary tree
+		level tree
+		downline tree
+
+sp - support:	faq
+		support
+
+tb - table:	commission		
